@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 #
 #
 # This script converts all MOV files found in the current directory into animated GIF images

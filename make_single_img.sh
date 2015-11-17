@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 #
 #
 # This script gets single still image from the MOV file in JPEG format
