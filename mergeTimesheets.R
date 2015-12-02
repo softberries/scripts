@@ -1,6 +1,8 @@
 ##
-## Install dplyr and gdata if not already installed with
+## 1. Install dplyr and gdata if not already installed with
 ## 'install.packages(..)' command
+##
+## 2. Load the script into R with 'source('~/Desktop/mergeTimesheets.R')' command.
 ##
 library(dplyr)
 library(gdata)
