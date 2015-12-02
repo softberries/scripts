@@ -1,2 +1,2 @@
 # scripts
-Personal scripts which I've found useful once 
+Personal scripts which I've found once useful
