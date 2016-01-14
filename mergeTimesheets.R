@@ -39,6 +39,8 @@ for (file in file_list){
 res <- select(dataset, Work.date, Issue.summary, Full.name, Hours)
 ## Format the date to save only year/month/day
 res <- mutate(res, Work.date = as.character(as.Date(ymd_hm(Work.date), format="YYYY/mm/dd")))
+## Order by name and by date
+res <- arrange(res, Full.name, Work.date)
 ## Rename the columns
 names(res) <- c("Date", "Work", "Consultant", "Hours")
 ## Change the date '-' dashes to '/' slashes
